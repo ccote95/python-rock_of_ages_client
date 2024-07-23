@@ -89,7 +89,7 @@ export const RockForm = ({ fetchRocks }) => {
 
                     <fieldset>
                         <button type="submit"
-                            onClick={collectRock}
+                            onClick={(event) => collectRock(event)}
                             className="button rounded-md bg-blue-700 text-blue-100 p-3 mt-4">
                             Collect Rock
                         </button>
